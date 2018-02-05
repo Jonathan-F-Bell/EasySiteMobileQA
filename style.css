@@ -1,0 +1,83 @@
+html {
+  box-sizing: border-box;
+  font-family: Arial, Helvetica, sans-serif;
+}
+
+h1 {
+  margin: 0;
+  font-weight: 100;
+}
+
+body {
+  background-color: #F5F5F5;
+}
+
+.card {
+  margin: 0 auto;
+  width: 100%;
+  max-width: 400px;
+  background-color: #FFFFFF;
+  border-radius: 2px;
+  box-shadow: 0 1px 3px rgba(0,0,0,0.12), 0 1px 2px rgba(0,0,0,0.24);
+}
+
+.card h1 {
+  padding: 10px;
+  color: white;
+}
+
+.card-header {
+  background-color: #448CCB;
+  height: 60px;
+  border-top-left-radius: 2px;
+  border-top-right-radius: 2px;
+}
+
+.card-content {
+  height: 100px;
+}
+
+.card-content h2 {
+  font-weight: 100;
+}
+
+.card-content input {
+  border: none;
+  border-bottom: 1.5px solid #d0d0d0;
+  outline: none;
+  transition: 0.1s;
+  width: 70%;
+}
+
+.card-content input:focus {
+  outline: none;
+  border-bottom: 2px solid #448CCB;
+}
+
+.card-content {
+  padding: 10px 20px;
+}
+
+.card-buttons {
+  padding-left: 20px;
+  padding-bottom: 20px;
+}
+
+.card-buttons button {
+  background-color: #448CCB;
+  border: none;
+  color: white;
+  padding: 15px 32px;
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+  font-size: 16px;
+  border-radius: 2px;
+  box-shadow: 0 1px 3px rgba(0,0,0,0.12), 0 1px 2px rgba(0,0,0,0.24);
+  transition: all 0.3s cubic-bezier(.25,.8,.25,1);
+}
+
+.card-buttons button:hover {
+  background-color: #53a2e2;
+  box-shadow: 0 3px 5px rgba(0,0,0,0.25), 0 3px 4px rgba(0,0,0,0.22);
+}
